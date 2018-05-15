@@ -18,7 +18,7 @@ Dieses Thema enthält eine Übersicht über die Verwendungsmöglichkeiten der as
 ##  <a name="BKMK_WhentoUseAsynchrony"></a> Async verbessert die Reaktionsfähigkeit  
  Asynchronie ist wesentlich für potenziell blockierende Aktivitäten, z.B. Webzugriff. Der Zugriff auf eine Webressource ist manchmal langsam oder verzögert. Wenn eine solche Aktivität innerhalb eines synchronen Prozesses blockiert wird, muss die gesamte Anwendung warten. In einem asynchronen Prozess kann die Anwendung mit anderer Arbeit fortfahren, die nicht von der Webressource abhängig ist, bis die potenziell blockierende Aufgabe beendet ist.  
   
- In der folgenden Tabelle werden typische Bereichen angezeigt, in denen die asynchrone Programmierung die Reaktionsfähigkeit verbessert. Die aufgelisteten APIs von .NET und der Windows-Runtime enthalten Methoden, die die asynchrone Programmierung unterstützen.  
+ In der folgenden Tabelle werden typische Bereiche angezeigt, in denen die asynchrone Programmierung die Reaktionsfähigkeit verbessert. Die aufgelisteten APIs von .NET und der Windows-Runtime enthalten Methoden, die die asynchrone Programmierung unterstützen.  
   
 | Anwendungsbereich    | .NET-Typen mit asynchronen Methoden     | Windows-Runtime-Typen mit asynchronen Methoden  |
 |---------------------|-----------------------------------|-------------------------------------------|
